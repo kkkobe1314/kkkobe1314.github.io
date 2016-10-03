@@ -1,22 +1,32 @@
-.header{background-color: #ff00ff;
-height: 50px;
-text-align: center;}
+.header{
+    background-color: #a1a1a1;
+    padding: 10px;
+    height:300px;
+    border-bottom: 2px solid gold;
+    text-align: center;}
 
-.main{background-color: gold;
-text-align: center;
-height:100px;}
-.mai{background-color: lightcoral;
-text-align: center;
-height:100px;}
-.ma{background-color: lawngreen;
-text-align: center;
-height:200px;}
+.main{
+    background-color:#f0f0f0;
+    padding: 20px;
+    border-bottom: 2px solid gold;
+    text-align: center;}
+.mai{
+    background-color: lightcoral;
+    text-align: center;
+    height:100px;}
+.ma{
+    background-color: #c1c1c1;
+    text-align: center;}
 .top{background-color: mistyrose;
-padding-top: 40px;
+    padding-top: 40px;
     padding-bottom: 40px;
     margin-top: 40px;
     border-top: 1px;}
 div{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    }
+p{
     margin-top: 0;
     margin-bottom: 1rem;
     }
