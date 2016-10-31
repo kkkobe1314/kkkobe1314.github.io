@@ -4,7 +4,7 @@ function xiong(){
 }
 
 locale['en'] = {
-    gomoku: 'Gomoku Powered by Keleyi',
+    gomoku: 'Gomoku',
     restart: 'Restart',
     regret: 'Regret',
     
@@ -14,7 +14,7 @@ locale['en'] = {
 };
 
 locale['zh-cn'] = {
-    gomoku: '五子棋 Powered by Keleyi',
+    gomoku: '五子棋',
     restart: '重新开始',
     regret: '悔棋',
    
