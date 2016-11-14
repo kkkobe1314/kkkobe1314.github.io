@@ -36,7 +36,7 @@
               svg.style({
                 'left':(d3.event.x-25)+'px',
                 'top':(d3.event.y-25)+'px',
-                
+                'background':'yellow'
               }); 
             })
             .on('dragend', function() { 
