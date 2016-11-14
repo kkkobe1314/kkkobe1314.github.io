@@ -30,11 +30,11 @@
     //c11.attr('cx',267).attr('cy',242).attr('rx',10).attr('ry',14).attr('stroke','black').attr('stroke-width',1).attr('fill','white');
 
     //function xiong(){
-        $(Document).ready(function(){
+       // $(Document).ready(function(){
         $("button").click(function(){
-            $("svg").animate({right:'200px'});
+            $("svg").animate({top:'100px'});
         });
-    });
+   // });
 //}
     /*function shunyong(){
     $(Document).ready(function(){
