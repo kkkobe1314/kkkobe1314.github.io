@@ -32,7 +32,14 @@
     //function xiong(){
        // $(Document).ready(function(){
         $("button").click(function(){
-            $("svg").animate({top:'100px'});
+              $("svg").animate({top:'+=300px'});
+               $("svg").animate({top:'-=300px'});
+                $("svg").animate({right:'+=200px'});
+               $("svg").animate({right:'-=200px'});
+               $("svg").animate({left:'+=200px'});
+               
+               $("svg").animate({left:'-=200px'});
+               
         });
    // });
 //}
