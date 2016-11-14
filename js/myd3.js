@@ -1,6 +1,6 @@
     
-    var cx=300;
-    var cy=200;
+    var cx=100;
+    var cy=30;
     var c1=d3.select('svg').append('circle');
     c1.attr('cx',cx-50).attr('cy',cy).attr('r',20).attr('stroke','black').attr('stroke-width',3).attr('fill','black');
     var c2=d3.select('svg').append('circle');
@@ -28,10 +28,26 @@
     c12.attr('cx',cx+35).attr('cy',cy+42).attr('rx',13).attr('ry',20).attr('stroke','black').attr('stroke-width',15).attr('fill','white');
     //var c13=d3.select('svg').append('ellipse');
     //c11.attr('cx',267).attr('cy',242).attr('rx',10).attr('ry',14).attr('stroke','black').attr('stroke-width',1).attr('fill','white');
+    var drag = d3.behavior.drag()  
+            .on('dragstart', function() { 
+              
+            })
+            .on('drag', function() { 
+              svg.style({
+                'left':(d3.event.x-25)+'px',
+                'top':(d3.event.y-25)+'px',
+                
+              }); 
+            })
+            .on('dragend', function() { 
+              
+            });
 
+var svg = d3.select('#B')
+            .call(drag);
     //function xiong(){
        // $(Document).ready(function(){
-        $("button").click(function(){
+       /* $("button").click(function(){
               $("svg").animate({top:'+=300px'});
                $("svg").animate({top:'-=300px'});
                 $("svg").animate({right:'+=200px'});
@@ -40,7 +56,7 @@
                
                $("svg").animate({left:'-=200px'});
                
-        });
+        });*/
    // });
 //}
     /*function shunyong(){
